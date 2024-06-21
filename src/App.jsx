@@ -9,8 +9,8 @@ function App() {
     {/* <AddProduct/> */}
       <div className="flex">
         <Sidebar>
-          <SidebarItem icon={<Home size={20} />} text="View" active />
-          <SidebarItem icon={<LayoutDashboard size={20} />} text="Edit Products" active /> 
+          <SidebarItem icon={<Home size={20} />} text="View" active  />
+          <SidebarItem icon={<LayoutDashboard size={20} />} text="Add Product" active /> 
         </Sidebar>
       </div>
     </>
